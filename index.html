@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZ Fish Tracker</title>
+
+    
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+
+
+    <!-- Teko font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- PLay font google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- my style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jquery, jqueryUI -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+    <!-- Include Owl Carousel JavaScript -->
+    <script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    
+    <!-- my scripts -->
+    <script src="script.js" defer></script>
+
+    
+</head>
+    
+<body>
+    <header id="home">
+        <h1>AZ Fish Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="#fishSect">Fish Species</a></li>
+                <li><a href="#lakeSect">Lakes</a></li>
+                <li><a href="#formSect">Sign In</a></li>
+            </ul>
+            <div class="burger">
+                <div class="patty"></div>
+                <div class="patty"></div>
+                <div class="patty"></div>
+            </div>
+            <p><a id="homeButt" href="#home">^</a></p>
+        </nav>
+    </header>
+    <main>
+
+        <sect id="carouselSect" class="owl-carousel">
+            <div><img src="images/michal-dziekonski-QExnXfMpB-4-unsplash.jpg" alt="smallmouthbass swiimin in illustration" class="carouselImg"></div>
+            <div><img src="images/gilatrout.jpg" alt="gila trout hed in hands of fisherman" class="carouselImg"></div>
+            <div><img src="images/yellowbullhead2.jpg" alt="Face of a yellow bullhead catfish" class="carouselImg"></div>
+            <div><img src="images/rainbowgroup.jpg" alt="Rainbow trout group" class="carouselImg"></div>
+        </sect>
+        <h2 id="aboutH">About AZ Fish Tracker</h2>
+        <p id="aboutP">Arizona Fish Tracker is dedicated to offering anglers a simple and effective way to check out important information on fish you plan to target, the weather in lakes you plan to fish, and to track your fishing records for every species. Check out the current Arizona Records for all the species in AZ below, as well as the weather forecast for the major lakes in AZ. Sign up will be available soon so you can track your own records. Leave your name and email at the bottom to be contacted when we have everything up and running. Thanks for checking us out anglers!</p>
+
+        <section id="fishSect">
+            <h2>Fish Species in AZ</h2>
+            <ul id="fishUl">
+                <li><a href="#tabs-1">Bass</a></li>
+                <li><a href="#tabs-2">Catfish</a></li>
+                <li><a href="#tabs-3">Trout</a></li>
+                <li><a href="#tabs-4">Crappie</a></li>
+                <li><a href="#tabs-5">Other</a></li>
+            </ul>
+            <div id="tabs-3">
+                <div class="fishGrid">
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Rainbow</h4>
+                            <img class="fishImgs" src="images/rainbowgroup.jpg" alt="rainbow trout group">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>Rainbow trout are a wonderful looking fish, and are caught on many types of baits and lures. They are often considered to be the hardest fighting trout, and are stocked in plenty of lakes and rivers in Arizona.</p>
+                            <p><span class="bold">AZ Record:</span> 32.5 in. 15 lb. 9.12 oz. - Willow Springs lake</p>
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Brown</h4>
+                            <img class="fishImgs" src="images/brownTrout.jpg" alt="brown trout swimming">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The Brown trout are stocked in Arizona and are found in just about any type of body of water.</p>
+                            <p><span class="bold">AZ Record:</span> 36.0 in. 22 lb. 14.5 oz. - Reservation lake</p>
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Apache</h4>
+                            <img class="fishImgs" src="images/apache2.jpg" alt="apache trout side">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>Apache trout are 1 of 2 trout species native to Arizona. They are found in the mountains of Arizona, and have a beautiful goal/tan body with black spots.</p>
+                            <p><span class="bold">AZ Record:</span> 24.0 in. 5 lb. 15.5 oz. - Hurricane lake </p>
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Cutthroat</h4>
+                            <img class="fishImgs" src="images/cutthroat.jpg" alt="cutthroat trout swimmming">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>Cutthroat trout are found in Northeastern Arizona for the most part and prefer areas similar to Rainbow trout.</p>
+                            <p><span class="bold">AZ Record: Unavailable</span> </p>
+                        </div>
+                    </section>
+    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Brook</h4>
+                            <img class="fishImgs" src="images/brrokdrawing.jpeg" alt="brook trout swimming">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The brook trout inhabits large and small lakes, rivers, streams, creeks, and spring ponds in cold temperate climates with mild precipitation. </p>
+                            <p><span class="bold">AZ Record:</span> 20.5 in. 4 lb. 15.2 oz. - Sunrise lake</p>
+                        </div>
+                    </section>
+    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Gila</h4>
+                            <img class="fishImgs" src="images/gila2.jpg" alt="gila trout swimming">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>Gila trout are 1 of two species native two Arizona. They can be found in small mountain water streams, and in confined pools. The Gila trout has been threatened by competition and hybridization with introduced game fish such as the rainbow trout. They are now endangered.</p>
+                            <p><span class="bold">AZ Record:</span> 5 lb. 1.92 oz - Goldwater lake</p>
+                        </div>
+                    </section>
+    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Tiger</h4>
+                            <img class="fishImgs" src="images/tiger2.jpg" alt="tiger trout swimming">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>They are rarely found in the wild, as the parent species are somewhat unrelated genetically. </p>
+                            <p><span class="bold">AZ Record:</span> 18.75 in. 3 lb. 16 oz - Morton tank</p>
+                        </div>
+                    </section>
+                </div>
+                
+                
+            </div>
+
+            <div id="tabs-2">
+                <div class="fishGrid">
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Channel</h4>
+                            <img class="fishImgs"  src="images/channelCat.jpg" alt="channel catfish face">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The channel Catfish are the most common amongst North America and Arizona. They have small teeth and swallow food hole, focusing on bottom feeding as most catfish do. They have extremely good senses of smell and taste, and are targeted by common ways of cat-fishing. Use some stinky bait!</p>
+                            <p><span class="bold">AZ Record:</span> 39.5 in. 35 lbs 4 oz - Upper Lake Mary </p>
+
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Flathead</h4>
+                            <img class="fishImgs"  src="images/flathead.jpg" alt="flathead catfish face">
+                        </div>
+                    
+                        <div class="fishDesc">
+                            <p>The flathead is less common than the channel catfish, but they can get Much bigger. The difference is a darker color and flat head and their preference for live bait. The big flatheads are caught with live carp that weigh multiple pounds.</p>
+                            <p><span class="bold">AZ Record:</span> 53.5 in. 76 lb. 8.64 oz. - Bartlett lake </p>
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Yellow Bullhead</h4>
+                            <img class="fishImgs" src="images/yellowbullhead.jpg" alt="yellow bullhead catfish face">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The yellow bullhead catfish are a small species of bullhead catfish that feed on most anything. they are foudn in shallow, often murky water of lakes, rivers, ponds, etc.</p>
+                            <p><span class="bold">AZ Record:</span> 17.75 in. 4 lb. 8.1 oz. - Mormon lake</p>
+                        </div>
+                    </section>
+                </div>
+                
+            </div>
+            <div id="tabs-1">
+                <div class="fishGrid">
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Largemouth</h4>
+                            <img class="fishImgs" src="images/largemouth3.jpg" alt="largemouth bass chilling in top of water">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The largemouth bass has an overly large mouth, hence the name. They are common to find among many AZ lakes and are commonly caught live bait, lures, jigs, and just about anything that looks tasty to a fish! They are known to be good fighter, voracious eater, and often go airborne when hooked. </p>
+                            <p><span class="bold">AZ Record:</span> 28.0in 16 lbs. 7.68 oz - Canyon lake</p>
+                        </div>
+                        
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Smallmouth</h4>
+                            <img class="fishImgs" src="images/AdobeStock_371545766.jpeg" alt="fisher holding smallmouth bassin water">
+                        </div>
+                        <div class="fishDesc">
+                            <p>The smallmouth bass is almost identical to the largemouth aside from it's more average sized mouth. They are powerful swimmers making them an anglers favorite to fish. It is also found among many lakes and streams in Arizona, but they tend to like cooler waters than the Largemouth.</p>
+                            <p><span class="bold">AZ Record:</span> 22.75 in. 7 lb. 0.96 oz. - Roosevelt lake</p>
+
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Striped</h4>
+                            <img class="fishImgs" src="images/stripedbass.jpg" alt="striped bass in fish tank">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The striped bass is not stocked by Game and Fish in Arizona, and decimate local populations of bait fish. They have stripes along their bodya nd are known to be a fun fish to catch.</p>
+                            <p><span class="bold">AZ Record: </span>45.25 in. 29lb. 13.76oz. - Lake Pleasant</p>
+
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Yellow</h4>
+                            <img class="fishImgs" src="images/Yellow_Bass.gif" alt="yellow bass illustration">
+                            <p>Attribution: Iowa Department of Natural Resources, Attribution, via Wikimedia Commons</p>
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The yellow bass is far less common type of bass, and are much smaller than other bass. They prefer dense vegetation and low turbidity.They are often caught using crappie jigs and minnows, but aren't often targeted by anglers.</p>
+                            <p><span class="bold">AZ Record:</span>14.25 in.  2lb 2.56 oz. - Canyon lake</p>
+
+                        </div>
+                    </section>
+                    
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>White</h4>
+                            <img class="fishImgs" src="images/whitebass2.jpg" alt="white bass illustration">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The white bass are found mostly in upstream segments of rivers, and don't get very large. They are also less common to find in Arizona.</p>
+                            <p><span class="bold">AZ Record:</span> 19.5 in. 4 lb. 11.7 oz. - Lake Pleasant</p>
+
+                        </div>
+                    </section>
+                </div>  
+            </div>
+                
+                
+                
+            <div id="tabs-4">
+                <div class="fishGrid">
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>White</h4>
+                            <img class="fishImgs" src="images/whitecrap.jpg" alt="white crappie in water">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The crappie has 5-10 black bars that line its body rather than spots like the black crappie. The White Crappie rarely exceeds 2 pounds, and has a large mouth with extremely thin lips, making fishing more challenging unless using properly sized hooks and equipment. WHite crappie are more resistant to turbulence than Black Crappie so can be found in more disturbed water.</p>
+                            <p><span class="bold">AZ Record:</span> 16.75 in, 3 lb. 5.28 oz. - Lake Pleasant</p>
+    
+                        </div>
+                    </section>
+                    <section class="fishSect">
+                        <div class="fishHeader">
+                            <h4>Black</h4>
+                            <img class="fishImgs" src="images/blackcrappie.jpg" alt="black crappie swimming">
+                        </div>
+                        
+                        <div class="fishDesc">
+                            <p>The black Crappie differs from the White crappie really only in the coloration, as the Black Crappie has SPots, and a darker body. They also have the thin lips, and require ease in angling in order to hook them. They are usually only 4-8 inches long. Black crappie prefer cal water in contrast to the WHite Crappie.</p>
+                            <p><span class="bold">AZ Record:</span> 4 lb. 10.0 oz. - San Carlos Lake</p>
+
+    
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div id="tabs-5">
+                <h4>Blue Gill</h4>
+                <h4>Artic Grayling</h4>
+                <h4>Bigmouth Bufallo</h4>
+                <h4>Desert Sucker</h4>
+                <h4>Green Sunfish</h4>
+                <h4>Northern Pike</h4>
+                <h4>Redear Sunfish</h4>
+                <h4>Roundtail Chub</h4>
+                <h4>Sonora Chub</h4>
+                <h4>Nile tilapia</h4>
+                <h4>Walleye</h4>
+                <h4>Yellow Perch</h4>
+            </div>
+
+        </section>
+        <button id="showCopy">Copyright for images and content</button>
+                    <div id="copyright" class="hide">
+                        <p >"Some content on this page includes descriptions of various fish species sourced from Wikipedia articles. All content is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+            
+                            For more detailed information about each fish species, please refer to the following Wikipedia articles:
+                            
+                            - [Largemouth Bass]<a href="https://en.wikipedia.org/w/index.php?title=Largemouth_bass&action=history">Here</a>
+                            - [Smallmouth Bass](<a href="https://en.wikipedia.org/wiki/Smallmouth_bass">Here</a>)
+                            - [Yellow Bass](<a href="https://en.wikipedia.org/wiki/Yellow_bass">Here</a>)
+                            - [White Bass](<a href="https://en.wikipedia.org/wiki/White_bass">Here</a>)
+                            - [Rainbow Trout](<a href="https://en.wikipedia.org/wiki/Rainbow_trout">Here</a>)
+                            - [Brown Trout](<a href="https://en.wikipedia.org/wiki/Brown_trout">Here</a>)
+                            - [Cutthroat Trout](<a href="https://en.wikipedia.org/wiki/Cutthroat_trout">Here</a>)
+                            - [Brook Trout](<a href="https://en.wikipedia.org/wiki/Brook_trout">Here</a>)
+                            - [Gila Trout](<a href="https://en.wikipedia.org/wiki/White_bass">Here</a>)
+                            - [Tiger Trout](<a href="https://en.wikipedia.org/wiki/Tiger_trout">Here</a>)
+                            - [Channel Catfish](<a href="https://en.wikipedia.org/wiki/Channel_catfish">Here</a>)
+                            - [Flathead Catfish](<a href="https://en.wikipedia.org/wiki/Flathead_catfish">Here</a>)
+                            - [Yellow Bullhead](<a href="https://en.wikipedia.org/wiki/Channel_catfish">Here</a>)
+                            - [White Crappie](<a href="https://en.wikipedia.org/wiki/White_crappie">Here</a>)
+                            - [Black Crappie](<a href="https://en.wikipedia.org/wiki/Black_crappie">Here</a>)</p>
+                        <p>
+                            AZ records- https://premierangler.com/every-arizona-state-fishing-record/
+                        </p>
+                        <p>All images unless otherwise noted are part of Public domain</p>
+                    </div>
+
+        <section id="lakeSect">
+            <h2>Main lakes(weather)</h2>
+
+            <div id="lakes">
+                <section class="weatherSect">
+                    <h3>Bartlett Lake</h3>
+                    <button data-value="85377" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Saguaro Lake</h3>
+                    <button data-value="85264" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Woods Canyon</h3>
+                    <button data-value="85541 " class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Lake Powell</h3>
+                    <button data-value="86040" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Roosevelt Lake</h3>
+                    <button data-value="85545" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Lake Pleasant</h3>
+                    <button data-value="85382" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Apache Lake</h3>
+                    <button data-value="85545" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Show Low Lake</h3>
+                    <button data-value="84901" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Lake Havasu</h3>
+                    <button data-value="86403" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Patagonia Lake</h3>
+                    <button data-value="85648" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Alamo Lake</h3>
+                    <button data-value="85357" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Riggs Flat Lake</h3>
+                    <button data-value="85357" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+                <section class="weatherSect">
+                    <h3>Lake Mead</h3>
+                    <button data-value="89005" class="lakeZip">Check Weather</button>
+                    <p class="weatherP">Weather: </p>
+                </section>
+            </div>
+        </section>
+
+        <section id="formSect">
+            <h2>We don't have the login working just yet, but leave your name and email and we will contact you when it's up and running!</h2>
+            <p id="output"></p>
+            <form id="form">
+                <label for="nameInput">Your Name</label>
+
+                <input id="nameInput" name="nameInput">
+                <label for="emailInput">Email</label>
+                <input id="emailInput" name="emailInput">
+                
+
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Seth Preble</p>
+        <p>GIT 418 Final Project</p>
+    </footer>
+</body>
+</html>
