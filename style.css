@@ -466,6 +466,7 @@ footer {
         flex-wrap: wrap;
         flex-direction: row;
     }
+
 }
 
 
@@ -487,5 +488,8 @@ footer {
         flex-wrap: wrap;
         flex-direction: row;
         margin: 20px;
+    }
+    .weatherSect {
+        margin: 15px;
     }
 }
